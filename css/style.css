@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: #1E202B;
+    --secondary-color: #009AD8;
+    --color-tertiary:#262936;
+    --fourth-color:#323544;
+}
+
+.navbar{
+    background-color: var(--main-color);
+}
+nav a button{
+    transition: 0.2s ease-in;
+}
+nav a button:hover{
+    color: var(--secondary-color) !important;
+    border: 2px solid var(--secondary-color) !important;
+}
+.nav-link:hover{
+    color: var(--secondary-color);
+}
+
+/* !======> Home Section */
+
+.app-container{
+    height: 100vh;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+/* !===========> */
+
+.item-header{
+    background-color: #2D303D;
+    color: gray;
+}
+.item{
+    background-color: var(--fourth-color);
+}
+.c-title h1 {
+    font-size: 90px !important;
+    color: #fff;
+}
+.item-2{
+    background-color: #262936;
+}
+
+/* !=====> Footer Section */
+
+footer{
+    background-color: var(--color-tertiary);
+
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color:none;
+    background-color: var(--main-color);
+    color: #fff;
+}
+input{
+   background-color: var(--main-color) !important;
+   
+}
+input::placeholder{
+    color: #fff !important;
+}
+
+.footer-icons i {
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: all 0.5s;
+}
+.footer-icons i:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+
+}
+
+/* !=======> CONTACT */
+#contact{
+    background-color: var(--main-color);
+}
+
+
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-inputs input{
+    border-radius: 50px;
+    padding: 15px;
+}
+.c-textarea{
+    border-radius: 50px;
+    padding: 30px;
+    background-color: var(--main-color);
+}
+
+.contact-inputs input:hover{
+    border:1px solid rgb(41, 41, 243);
+}
+
+.c-textarea:hover{
+    border: 1px solid rgb(41, 41, 243);
+}
